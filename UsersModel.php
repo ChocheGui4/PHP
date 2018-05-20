@@ -11,7 +11,7 @@ class UsersModel {
     private $connection;
 
     public function __construct () {
-        $server = '127.0.0.1';
+        $server = '189.165.129.75';
         $dataBase = 'latiem';
         try {
             $this->connection = new PDO(
