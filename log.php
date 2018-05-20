@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
 
     exit(0);
 }
-require_once 'UsersModel.php';
+require_once 'https://github.com/ChocheGui4/PHP/blob/master/UsersModel.php';
  
 
 $errors = [
